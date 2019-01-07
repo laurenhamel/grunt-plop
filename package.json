@@ -1,0 +1,19 @@
+{
+  "name": "grunt-plop",
+  "version": "1.0.0",
+  "description": "A Grunt wrapper for Plop, a micro-generator for your projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "plop",
+    "generator"
+  ],
+  "author": "Lauren Hamel",
+  "license": "MIT",
+  "dependencies": {
+    "plop": "^2.2.0"
+  }
+}
