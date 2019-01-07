@@ -24,4 +24,4 @@ Run this task with the `grunt plop` command. You can also target a specific gene
 
 ## Options
 
-This grunt task is not configurable and therefore does not have any options available. It's merely a Grunt wrapper for the [plop](https://www.npmjs.com/package/plop) package to allow you to call the Plop CLI via Grunt. Refer to the [Plop documentation](https://plopjs.com/documentation/) and/or [Github repo](https://github.com/amwmedia/plop) to learn more about using [Plop](https://plopjs.com/) within your project and how to setup a [`plopfile.js`](https://plopjs.com/documentation/#your-first-plopfile).
+This grunt task is not configurable and therefore does not have any options available. It's merely a Grunt wrapper for the [plop](https://www.npmjs.com/package/plop) package to allow you to call the Plop CLI via Grunt. Refer to the [Plop documentation](https://plopjs.com/documentation/) and/or its [Github repo](https://github.com/amwmedia/plop) to learn more about using [Plop](https://plopjs.com/) within your project and how to setup a [`plopfile.js`](https://plopjs.com/documentation/#your-first-plopfile).
