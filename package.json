@@ -1,6 +1,6 @@
 {
   "name": "grunt-plop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Grunt wrapper for Plop, a micro-generator for your projects",
   "scripts": {},
   "keywords": [
