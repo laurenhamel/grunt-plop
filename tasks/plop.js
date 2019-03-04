@@ -34,10 +34,31 @@ module.exports = (grunt) => {
       
     }
     
+    // Define blacklist of Grunt-specific options.
+    const blacklist = [
+      '--base',
+      '--no-color',
+      '--gruntfile',
+      '--stack',
+      '--tasks',
+      '--npm',
+      '--no-write',
+      '--verbose',
+      '--debug',
+      '--completion',
+    ];
+    
+    // Get arguments and options.
+    let args = [...arguments];
+    let opts = grunt.option.flags();
+    
+    // Filter out Grunt options.
+    opts = opts.filter((opt) => !blacklist.includes(opt.split('=')[0]));
+    
     // Run Plop.
     grunt.util.spawn({
       cmd: require.resolve('plop'),
-      args: [...arguments],
+      args: args.concat(opts),
       opts: {stdio: 'inherit'}
     }, (err, result, code) => done());
     
